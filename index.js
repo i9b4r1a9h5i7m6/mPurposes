@@ -12,7 +12,7 @@ app.configure(function () {
 });
 
 app.get('/',function(req,res){  
-         res.sendFile(__dirname + "/index.html");  		         
+         res.sendFile(__dirname + "/home.html");  		         
      });		     
 
 http.createServer(app).listen(app.get('port'), function () {
